@@ -1,0 +1,133 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Wireless Mouse",
+        "description": "A high-precision wireless mouse with ergonomic design.",
+        "price": 29.99,
+        "currency": "USD",
+        "category": "Electronics",
+        "stock": 150,
+        "rating": 4.5,
+        "image_url": "https://example.com/images/wireless_mouse.jpg",
+        "attributes": {
+          "color": "Black",
+          "battery_life": "12 months",
+          "wireless_technology": "Bluetooth"
+        }
+      },
+      {
+        "id": "2",
+        "name": "Bluetooth Headphones",
+        "description": "Noise-canceling Bluetooth headphones with long battery life.",
+        "price": 89.99,
+        "currency": "USD",
+        "category": "Electronics",
+        "stock": 75,
+        "rating": 4.8,
+        "image_url": "https://example.com/images/bluetooth_headphones.jpg",
+        "attributes": {
+          "color": "Over-Ear",
+          "battery_life": "20 hours",
+          "noise_cancellation": true
+        }
+      },
+      {
+        "id": "3",
+        "name": "Smartphone Stand",
+        "description": "Adjustable stand for smartphones and tablets.",
+        "price": 15.99,
+        "currency": "USD",
+        "category": "Accessories",
+        "stock": 200,
+        "rating": 4.2,
+        "image_url": "https://example.com/images/smartphone_stand.jpg",
+        "attributes": {
+          "material": "Aluminum",
+          "adjustable": true,
+          "compatible_devices": ["Smartphones", "Tablets"]
+        }
+      },
+      {
+        "id": "4",
+        "name": "Gaming Keyboard",
+        "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+        "price": 99.99,
+        "currency": "USD",
+        "category": "Gaming",
+        "stock": 50,
+        "rating": 4.7,
+        "image_url": "https://example.com/images/gaming_keyboard.jpg",
+        "attributes": {
+          "key_switch_type": "Cherry MX",
+          "rgb_lighting": true,
+          "programmable_keys": 10
+        }
+      },
+      {
+        "id": "5",
+        "name": "Portable Charger",
+        "description": "Compact portable charger with 10000mAh capacity.",
+        "price": 24.99,
+        "currency": "USD",
+        "category": "Accessories",
+        "stock": 300,
+        "rating": 4.6,
+        "image_url": "https://example.com/images/portable_charger.jpg",
+        "attributes": {
+          "capacity_mAh": 10000,
+          "input_ports": ["USB-C", "Micro-USB"],
+          "output_ports": ["USB-A"]
+        }
+      },
+      {
+        "id": "6",
+        "name": "Portable Charger",
+        "description": "Compact portable charger with 10000mAh capacity.",
+        "price": 24.99,
+        "currency": "USD",
+        "category": "Accessories",
+        "stock": 300,
+        "rating": 4.6,
+        "image_url": "https://example.com/images/portable_charger.jpg",
+        "attributes": {
+          "capacity_mAh": 10000,
+          "input_ports": ["USB-C", "Micro-USB"],
+          "output_ports": ["USB-A"]
+        }
+      },
+      {
+        "id": "7",
+        "name": "Portable Charger",
+        "description": "Compact portable charger with 10000mAh capacity.",
+        "price": 24.99,
+        "currency": "USD",
+        "category": "Accessories",
+        "stock": 300,
+        "rating": 4.6,
+        "image_url": "https://example.com/images/portable_charger.jpg",
+        "attributes": {
+          "capacity_mAh": 10000,
+          "input_ports": ["USB-C", "Micro-USB"],
+          "output_ports": ["USB-A"]
+        }
+      },
+      {
+        "id": "8",
+        "name": "Portable Charger",
+        "description": "Compact portable charger with 10000mAh capacity.",
+        "price": 24.99,
+        "currency": "USD",
+        "category": "Accessories",
+        "stock": 300,
+        "rating": 4.6,
+        "image_url": "https://example.com/images/portable_charger.jpg",
+        "attributes": {
+          "capacity_mAh": 10000,
+          "input_ports": ["USB-C", "Micro-USB"],
+          "output_ports": ["USB-A"]
+        }
+      }
+    ]
+  }
+  

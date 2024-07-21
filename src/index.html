@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+    <section id="login" class="bg-slate-200 shadow-lg h-full hidden">
+        
+            <main class="flex items-center justify-center p-8 m-aut h-screen">
+                <form id="login-form" class=" bg-slate-800 mt-8  shadow-md  grid grid-cols-12 gap-6 px-5 py-10 rounded">
+                    <div class="col-span-12">
+                        <label for="Email" class="block text-sm font-medium text-white"> Email </label>
+
+                        <input type="email" id="Email" name="email"
+                            class="mt-1 w-full rounded-md p-3 bg-slate-50 border-white text-sm text-black shadow-sm" />
+                    </div>
+
+                    <div class="col-span-12 ">
+                        <label for="Password" class="block text-sm font-medium text-white"> Password </label>
+
+                        <input type="password" id="Password" name="password"
+                            class="mt-1 w-full rounded-md bg-slate-50 border-gray-200 p-3 text-sm text-black shadow-sm" />
+                    </div>
+
+
+                    <div class="col-span-6 flex flex-col items-start gap-4">
+                        <button type="submit"
+                            class="inline-block shrink-0 ms-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
+                            Login
+                        </button>
+                            <p id="error-message" class="text-red-500 "></p>
+
+                    </div>
+                </form>
+        </main>
+       
+    </section>
+
+    <section id="prodcuts" class="w-full max-w-6xl mx-auto p-5 py-8 h-screen hidden">
+        <div class="flex justify-between items-center">
+            <h1 class="text-[26px] font-semibold">All Products :</h1>
+            <div class="flex justify-center items-center">
+                <a href="./cart.html" class=" underline  p-3 rounded font-semibold">
+                    Cart <span id="cart-num" class="py-1 px-2 ms-1 rounded-md border border-black ">0</span></a>
+                <a href="#" id="logOut" class="text-lg bg-red-700 ms-4 text-white rounded py-1 px-5">log out</a>
+            </div>
+
+        </div>
+        <div class="products mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Product Card -->
+            <!-- <div class="bg-white border rounded-lg shadow-lg overflow-hidden">
+                <img src="https://example.com/images/wireless_mouse.jpg" alt="Wireless Mouse"
+                    class="w-full h-48 object-cover">
+                    
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-gray-800">Wireless Mouse</h2>
+                    <p class="text-gray-600 mt-1">$29.99</p>
+                    <p class="text-gray-500 mt-2">A high-precision wireless mouse with ergonomic design.</p>
+                    <div class="flex items-center mt-4">
+                        <span class="text-yellow-500">★★★★☆</span>
+                        <span class="ml-2 text-gray-500">(4.5)</span>
+                    </div>
+                    <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add to
+                        Cart</button>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
